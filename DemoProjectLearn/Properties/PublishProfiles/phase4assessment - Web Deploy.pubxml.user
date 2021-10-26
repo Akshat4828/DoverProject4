@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3GBOZOBNF0+N0IhE2bqhKgAAAAACAAAAAAADZgAAwAAAABAAAABvnv/F6fDDvF1Jrqwzn4JQAAAAAASAAACgAAAAEAAAAHrmFXcIUQD4Tel1kNdFzwyAAAAAewZuEuIV61Fcap8kMbbS5B9nUkSQmLt9jzEwBD1vqbWzGyW6/NfVGaIedaIQofgBpL3xhXSPgDaQZc3Ai2I/IOBRSBJxNkgdWJWbOkM+KZOPS+qu2MQp5ZO8qMet11iQ/iMRjuExFaNjZODNXNSn6o3AUwBN2oU3MIl7j7Y42ysUAAAACA8xcwLzwWHMaHhlgmMpl9s+eJ8=</EncryptedPassword>
+    <History>False|2021-10-25T06:11:07.3954248Z;True|2021-10-18T10:32:17.0508127+05:30;False|2021-10-18T10:23:22.5575952+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="DemoProjectLearn.Models.AppDBContext">
+      <Value>Data Source=tcp:demoprojectlearndbserver.database.windows.net,1433%3bInitial Catalog=DemoProjectLearn_db%3bUser Id=akshatadmin%40demoprojectlearndbserver%3bPassword=Akshat%40123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
